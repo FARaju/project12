@@ -1,0 +1,756 @@
+/* global css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.green{
+    color: #eaefff;
+    color: #fe6124;
+    color: #fe5c24;
+}
+header{
+    width: 100%;
+    
+}
+body{
+    font-family: 'open sans', sans-serif ;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* header section css start */
+.top-header{
+    background-color: #eaefff;
+    
+}
+.top-header .left span{
+    color: #fe5c24;
+    font-size: 14px;
+    margin-right: 16px;
+
+}
+.top-header .left a{
+    color: #0c3e72;
+    font-size: 14px;
+    margin: 0 15px;
+}
+.top-header .right span{
+    color: #0c3e72;
+    font-size: 14px;
+    margin-left: 14px;
+}
+.top-header .right span i{
+    margin-right: 7px;
+    color: #fe6124;
+}
+.top-header .right ul li a i{
+    color: #0c3e72;
+    font-size: 14px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+.top-header .right ul li a i:hover{
+    color: #fe5c24;
+    transition: 0.5s;
+}
+
+.nav-link{
+    
+    color: #0c3e72 !important;
+}
+.nav-item{
+    margin: 0 18px;
+}
+.nav-link:hover{
+    color: #fe6124 !important;
+}
+
+.custom-btn{
+    background: #fe5c24;
+    padding: 16px 32px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+.custom-btn:hover{
+    background: #0c3e72;
+    transition: 0.5s;
+}
+.navbar-brand img{
+    margin-left: 25px;
+}
+
+/* banner section css */
+#banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.b-content h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+
+}
+.b-content p{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+.banner-btn{
+    margin-top: 60px;
+    background-color: #2493e0;
+    padding: 23px 79px;
+    border: none;
+    color: white;
+    transition: 0.5s;
+
+}
+.banner-btn:hover{
+    background-color: #fe6124;
+    transition: 0.5s;
+
+}
+/* search section css */
+.search-wrapper{
+    margin-top: -72px;
+    
+}
+.tab-item{
+    background-color: white;
+}
+
+.s-form{
+    background-color: white;
+    box-shadow: 0px 10px 40px 0px rgb(221 221 222 );
+    padding: 40px;
+}
+
+.line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #2493e0;
+}
+.s-form form select{
+    padding: 16px 15px;
+    margin-right: 24px;
+    width: 170px;
+}
+/* places section code css */
+#places{
+    width: 100%;
+    padding: 100px 0;
+}
+.section-title{
+    margin-bottom: 32px;
+}
+.section-title h2{
+    font-size: 41px;
+    color: #0c3e72;
+    line-height: 1.1;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 26px;
+    text-align: center;
+
+}
+.section-title p{
+    font-family: "Open Sans",sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: center !important;
+    font-weight: 400;
+    display: block;
+    color: #777;
+}
+.p-item{
+    position: relative;
+}
+.p-item::before{
+    position: absolute;
+    content: '';
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #0c3e72;
+    opacity: 0;
+    transition: 0.5s;
+}
+.p-item:hover::before{
+    opacity: 0.75;
+    transition: 0.5s;
+}
+.p-content a{
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #fe5c24;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+.p-content h3{
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    
+}
+.p-content p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: white;
+    
+}
+.p-content span{
+    color: #fff;
+    
+}
+.p-content span i{
+    color: #fe5c24;
+    
+}
+.p-content{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.p-item:hover .p-content{
+    opacity: 1;
+    transition: 1s;
+    transform: translatey(-15px);
+}
+.col-md-12 button{
+    background-color: #fe6124;
+    padding: 15px 55px;
+    border: none;
+    color: white;
+    margin-bottom: 100px;
+    transition: 0.5s;
+   
+
+}
+   
+.col-md-12 button:hover{
+    background-color: #2493e0;
+    transition: 0.5s;
+
+}
+/* slider section css */
+
+#event-slider{
+    width: 100%;
+    padding: 120px 0px;
+    background-image: url(../image/cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-box{
+    background-color: white;
+    padding: 60px;
+}
+
+.slider-box h6{
+    color: #fe5c24;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.slider-box h2{
+    color: #0c3e72;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.slider-box p{
+   color: #848484;
+   margin-bottom: 20px;
+   font-size: 18px;
+   line-height: 40px;
+   
+}
+.slider-box p span{
+    color: #0c3e72;
+
+}
+.review-star i{
+    color: #ffc962;
+}
+#event-slider .owl-dots{
+    display: none;
+}
+#event-slider .owl-prev{
+    position: absolute;
+    color: #fe5c24;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 100%;
+    text-align: center;
+    top: 50%;
+}
+#event-slider .owl-next{
+    position: absolute;
+    color: #fe5c24;
+    right: -80px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 100%;
+    text-align: center;
+    top: 50%;
+}
+
+
+
+
+/* offer section css */
+
+#offer{
+    width: 100%;
+    padding: 120px 0px;
+}
+.section-title h2{
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.section-title p{
+    font-size: 18px;
+    padding-bottom: 2rem;
+    padding: 0 70px;
+    color: #9e9798;
+    line-height: 28px;
+}
+.hotel-banner{
+    margin-bottom: 24px;
+}
+#offer h3{
+    color: #0c3e72;
+    font-size: 24px;
+    margin-bottom: 21px;
+}
+#offer .place-review i{
+    color: #ffc962 !important;
+}
+#offer .place-review span{
+    color: #0c3e72;
+}
+#offer .place-review {
+    margin-bottom: 16px;
+}
+.h-address{
+    color: #a2a2a2;
+}
+.h-cost span{
+    color: #fe5c24;
+
+}
+.h-item{
+    border-bottom: 1px solid #ced8e3;
+}
+      
+
+.hotel-link a i{
+    background: rgba(255, 247, 247, 0.945);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    
+}
+.hotel-link div a i{
+    background-color: #ED8E7C;
+    color: white;
+}
+.hotel-banner{
+    position: relative;
+}
+.hotel-link{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.hotel-link a{
+    margin-bottom: 6px;
+
+}
+.hotel-link div{
+    transition: 0.3s;
+    transform: scaleY(0);
+}
+.hotel-link:hover div{
+    transform: scaleY(1);
+    transition: 0.3s;
+
+}
+.h-share{
+    transform: scaleX(1);
+    transition: 0.3s;
+}
+.hotel-link:hover .h-share{
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+/* product icon css */
+.singel-hotel-list img{
+    position: relative;
+   
+}
+.meta-item a i{
+    height: 40px;
+    width: 40px;
+    background-color: #82ae46;
+    color: white;
+    border-radius: 100%;
+    line-height: 30px;
+}
+.meta-item{
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    
+    opacity: 0;
+    transition: 0.3s;
+}
+.singel-hotel-list:hover .meta-item{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+/* testimonial section code css */
+
+#testimonial{
+    width: 100%;
+    padding: 120px 0px;
+    background-color: #0c3e72;
+
+}
+.t-card{
+    background-color: #0e477d;
+    padding: 30px;
+    margin-right: 15px;
+}
+
+
+.t-card h6{
+    color: white;
+    margin-top: 20px;
+}
+#testimonial .owl-prev{
+    position: absolute;
+    color: white;
+    right: 10%;
+    background-color: #2493e0;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    top: -140px;
+}
+#testimonial .owl-next{
+    position: absolute;
+    color: white;
+    right: 30px;
+    background-color: #2493e0;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    top: -140px;
+}
+#testimonial .content{
+    color: white;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+#testimonial .text-light{
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+}
+#testimonial .owl-dots{
+    display: none;
+}
+/* visite section code css */
+
+#visite{ 
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+}
+.p-10 a h3{
+    color: #0c528e;
+    padding-top: 2rem;
+    font-weight: 400;
+}
+.p-10 p{
+    color: #a2a2a2;
+    font-family: "Open Sans",sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.s-tile h2{
+    color: #0c3e72;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.s-tile p{
+    color: #9e9798;
+    font-size: 18px;
+    padding-bottom: 3rem;
+    font-weight: 400;
+}
+/* contact section css */
+ #contact{ 
+    width: 100%;
+    padding: 100px 0;
+    background-color: #162b45;
+}
+#row-1 h6{
+    color: white;
+    margin-top: -50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+#row-1 ul li{
+    text-decoration: none;
+    line-height: 1.5rem;
+    margin-top: 13px;
+    list-style: none;
+    margin-right: 17px;
+    margin-left: -32px;
+    
+    
+
+}
+#row-1 ul li a{
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+   
+}
+#row-1 ul li a:hover{
+    color: #fe5c24;
+    transition: 0.5s;
+}
+#row-2 h6{
+    color: white;
+    margin-top: -50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+#row-2 .form-control{
+    background-color: #162b45;
+    font-size: 12px;
+    border: none;
+    
+}
+#row-2 .send-icon a i{
+    height: 40px;
+    width: 50px;
+    line-height: 40px;
+    background-color: #fe5c24;
+    text-align: center;
+    color: white;
+}
+#row-2 p{
+    color: white;
+    margin-top: 50px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 30px;
+}
+#row-3 h6{
+    color: white;
+    margin-top: -50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-bottom: 25px;
+    margin-left: 45px;
+}
+#row-3 .number{
+    color: white;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+#row-3 .contact{
+    color: #fe5c24;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+#row-3 a i{
+    color: white;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+#row-3 a i:hover{
+    color: #fe5c24;
+    transition: 0.5s;
+}
+
+
+
+/* .row-1 h6{ 
+    color: white;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.row-1 ul li {
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 15px;
+   
+}
+.row-1 ul li a{
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+   
+}
+.row-1 ul li a:hover{
+    color: #fe5c24;
+    transition: 0.5s;
+}
+.row-2 ul li{
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 15px
+}
+.row-2 ul li a{
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+   
+}
+.row-2 ul li a:hover{
+    color: #fe5c24;
+    transition: 0.5s;
+}
+.row-3 h6{
+    color: white;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.row-3 p{
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: white;
+}
+.row-3 ul li{
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 15px
+}
+.row-3 ul li a{
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+   
+}
+.row-3 ul li a:hover{
+    color: #fe5c24;
+    transition: 0.5s;
+}
+.row-3 .form-control{
+    padding: 10px 5px;
+    background-color: #162b45;
+    border: none;
+}
+.row-4 h6{
+    color: white !important;
+    margin-top: -50px;
+    padding-bottom: 30px;
+
+}
+.row-4 .contact{
+    margin-top: 10px;
+}
+.row-4 p{
+    color: white;
+    font-size: 18px;
+    line-height: 2rem;
+   
+}
+.row-4 h6{
+     color: #fe5c24; 
+}
+*/
+
+/* footer section css */
+#footer{
+    width: 100%;
+    background-color: #08223a;
+    height: 100px;
+}
+.row center{
+    color: #455b70;
+    margin-top: 30px;
+}
+.row center span{
+    color: #fe5c24;
+}
+
+.drop-down .dropdown-menu ul li{
+    transition: 3s;
+}
+.drop-down:hover .dropdown-menu{
+    display: block;
+    transition: 3s;
+    transition-delay: 2s;
+}
+.drop-down .dropdown-menu{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  perspective: 1000px;
+  display: none;
+}
+.drop-down:hover .drop-down-animated{
+  display: block;}
+
+
