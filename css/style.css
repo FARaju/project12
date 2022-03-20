@@ -148,10 +148,14 @@ a{
     background-color: #2493e0;
 }
 .s-form form select{
-    padding: 16px 15px;
-    margin-right: 24px;
+    
     width: 170px;
 }
+.s-form div{
+    margin-right: 35px;
+    padding: 16px 15px;
+}
+
 /* places section code css */
 #places{
     width: 100%;
@@ -165,7 +169,7 @@ a{
     color: #0c3e72;
     line-height: 1.1;
     font-weight: 600;
-    position: relative;
+    
     margin-bottom: 26px;
     text-align: center;
 
@@ -393,7 +397,7 @@ a{
 .hotel-link{
     position: absolute;
     bottom: 20px;
-    right: 20px;
+    right: 50px;
 }
 .hotel-link a{
     margin-bottom: 6px;
@@ -502,7 +506,7 @@ a{
 #visite{ 
     width: 100%;
     height: 100vh;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .p-10 a h3{
     color: #0c528e;
@@ -625,102 +629,8 @@ a{
 
 
 
-/* .row-1 h6{ 
-    color: white;
-    margin-top: -50px;
-    padding-bottom: 20px;
-    line-height: 1.2em;
-    font-weight: 700;
-    text-transform: uppercase;
 
-}
-.row-1 ul li {
-    list-style: none;
-    line-height: 2rem;
-    margin-top: 15px;
-   
-}
-.row-1 ul li a{
-    color: white;
-    font-size: 18px;
-    transition: 0.5s;
-   
-}
-.row-1 ul li a:hover{
-    color: #fe5c24;
-    transition: 0.5s;
-}
-.row-2 ul li{
-    list-style: none;
-    line-height: 2rem;
-    margin-top: 15px
-}
-.row-2 ul li a{
-    color: white;
-    font-size: 18px;
-    transition: 0.5s;
-   
-}
-.row-2 ul li a:hover{
-    color: #fe5c24;
-    transition: 0.5s;
-}
-.row-3 h6{
-    color: white;
-    margin-top: -50px;
-    padding-bottom: 20px;
-    line-height: 1.2em;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.row-3 p{
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
-    margin-bottom: 0;
-    font-weight: 400;
-    color: white;
-}
-.row-3 ul li{
-    list-style: none;
-    line-height: 2rem;
-    margin-top: 15px
-}
-.row-3 ul li a{
-    color: white;
-    font-size: 18px;
-    transition: 0.5s;
-   
-}
-.row-3 ul li a:hover{
-    color: #fe5c24;
-    transition: 0.5s;
-}
-.row-3 .form-control{
-    padding: 10px 5px;
-    background-color: #162b45;
-    border: none;
-}
-.row-4 h6{
-    color: white !important;
-    margin-top: -50px;
-    padding-bottom: 30px;
-
-}
-.row-4 .contact{
-    margin-top: 10px;
-}
-.row-4 p{
-    color: white;
-    font-size: 18px;
-    line-height: 2rem;
-   
-}
-.row-4 h6{
-     color: #fe5c24; 
-}
-*/
-
-/* footer section css */
+/* footer section css code start */
 #footer{
     width: 100%;
     background-color: #08223a;
@@ -733,6 +643,10 @@ a{
 .row center span{
     color: #fe5c24;
 }
+/* footer secton css code end */
+
+
+/* menu-drop-down code start here */
 
 .drop-down .dropdown-menu ul li{
     transition: 3s;
@@ -754,3 +668,4 @@ a{
   display: block;}
 
 
+/* menu-drop-down code end here */

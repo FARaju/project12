@@ -44,8 +44,8 @@
         <!-- top header section code -->
 
         <div class="top-header py-4">
-            <div class="container">
-                <div class="row">
+            <div class="container g-0">
+                <div class="row g-0">
                     <div class="col-md-6 left">
                         <span>Top Destination</span>
                         <a href="">Asia</a>
@@ -137,8 +137,8 @@
     <!--banner section code start -->
 
     <section id="banner">
-        <div class="container">
-            <div class="row">
+        <div class="container g-0">
+            <div class="row g-0">
                 <div class="col-md-12">
                     <div class="b-content">
                         <div>
@@ -161,33 +161,33 @@
 
 
     <section id="search">
-        <div class="container">
+        <div class="container g-0">
             <div class="search-wrapper">
                 <!-- search section code -->
                 <div class="tab-item">
                     <div class="d-inline-block">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                              <button class="nav-link active" id="Hotel-tab" data-bs-toggle="tab" data-bs-target="#Hotel" type="button" role="tab" aria-controls="home" aria-selected="true">Hotel</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                              <button class="nav-link" id="Ticket-tab" data-bs-toggle="tab" data-bs-target="#Ticket" type="button" role="tab" aria-controls="profile" aria-selected="false">Ticket</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                              <button class="nav-link" id="Place-tab" data-bs-toggle="tab" data-bs-target="#Place" type="button" role="tab" aria-controls="contact" aria-selected="false">Place</button>
                             </li>
                           </ul>
                           <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="Hotel-tab"></div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="Ticket-tab"></div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="Place-tab"></div>
                           </div>
                 </div>
                 </div>
                 <!-- search form area -->
                 <div class="s-form">
                     
-                    <form class="d-flex">
+                    <form class="d-flex text-center" id="Hotel-form">
                         <div>
                        
                             <select>
@@ -208,7 +208,7 @@
                             class="s-box-item">
                            
                         </div>
-                    
+                    <div>
                     
                             <select>
                                 <option>Chopsece place<option>
@@ -216,15 +216,15 @@
                                 <option>2</option>
                                 <option>3</option>
                             </select>
+                        </div>
 
                             <button class="custom-btn">Hotel</button>
                         
-                        </div>
-                       
                         
                     </form>
-                    <form class="text-center" id="Ticket-form">
+                    <form class="d-flex text-center" id="Ticket-form">
                         <div>
+                       
                             <select>
                                 <option>Chopsece place<option>
                                 <option>1</option>
@@ -232,7 +232,19 @@
                                 <option>3</option>
                             </select>
                         </div>
-                        <div>
+                           
+                        <div class="d-inline-block">
+                            <input type="date" name="" value="" placeholder="check in date" 
+                            class="s-box-item">
+                            
+                        </div>
+                        <div class="d--inline-block">
+                            <input type="date" name="" value="" placeholder="check in date" 
+                            class="s-box-item">
+                           
+                        </div>
+                    <div>
+                    
                             <select>
                                 <option>Chopsece place<option>
                                 <option>1</option>
@@ -240,26 +252,14 @@
                                 <option>3</option>
                             </select>
                         </div>
-                        <div>
-                            <select>
-                                <option>Chopsece place<option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select>
-                                <option>Chopsece place<option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
-                        </div>
-                        <button class="custom-btn">Ticket</button>
+
+                            <button class="custom-btn">Ticket</button>
+                        
+                        
                     </form>
-                    <form class="text-center" id="place-form">
+                    <form class="d-flex text-center" id="Place-form">
                         <div>
+                       
                             <select>
                                 <option>Chopsece place<option>
                                 <option>1</option>
@@ -267,7 +267,19 @@
                                 <option>3</option>
                             </select>
                         </div>
-                        <div>
+                           
+                        <div class="d-inline-block">
+                            <input type="date" name="" value="" placeholder="check in date" 
+                            class="s-box-item">
+                            
+                        </div>
+                        <div class="d--inline-block">
+                            <input type="date" name="" value="" placeholder="check in date" 
+                            class="s-box-item">
+                           
+                        </div>
+                    <div>
+                    
                             <select>
                                 <option>Chopsece place<option>
                                 <option>1</option>
@@ -275,28 +287,18 @@
                                 <option>3</option>
                             </select>
                         </div>
-                        <div>
-                            <select>
-                                <option>Chopsece place<option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select>
-                                <option>Chopsece place<option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
-                        </div>
-                        <button class="custom-btn">Place</button>
+
+                            <button class="custom-btn">Place</button>
+                        
+                        
                     </form>
+                   
+                </div>
+                   
                 </div>
             </div>
                 
-            </div>
+           
         
     </section>
     <!-- search section code end -->
@@ -305,9 +307,9 @@
 
 
     <section id="places">
-        <div class="container">
+        <div class="container g-0">
             <!--  title section -->
-            <div class="row">
+            <div class="row g-0">
                 
                 <div class="col-md-12">
                     <div class="section-title">
@@ -405,7 +407,7 @@
 
 
 <section id="event-slider">
-    <div class="container">
+    <div class="container g-0">
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <div class="row">
@@ -510,8 +512,8 @@
 
 
  <section id="offer">
-     <div class="container">
-         <div class="row justify-content-center">
+     <div class="container g-0">
+         <div class="row justify-content-center g-0">
              <div class="col-md-12 mt-xl-5">
                  <div class="section-title text-center">
                      <h2>Top Hotel & Restaurants</h2>
@@ -521,7 +523,7 @@
                  </div>
              </div>
          </div>
-         <div class="row mt-4">
+         <div class="row mt-4 g-0">
                
                <div class="col-md-4">
                  <div class="h-item">
@@ -620,7 +622,7 @@
    
 </div>
      </div>
-
+</div>
  </section>
 
 
@@ -629,9 +631,9 @@
 <!-- testimonial code start here -->
 
 <section id="testimonial">
-    <div class="container">
+    <div class="container g-0">
 
-        <div class="row">
+        <div class="row g-0">
             <h1 class="content">What they said</h1>
             <div class="owl-carousel owl-theme" id="second">
                 <div class="item">
@@ -748,7 +750,7 @@
 
 
 <section id="visite">
-    <div class="container">
+    <div class="container g-0">
         <div class="row justify-content-center">
             <div class="col-md-12 col-sm-6">
                 <div class="s-tile text-center">
@@ -759,7 +761,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row g-0">
         <div class="col-md-3 d-inline-block p-10">
             <img src="image/visite4.png" class="img-fluid">
             <a href=""><h3>Transportation</h3></a>
@@ -793,8 +795,8 @@
 
 <!-- contact section code start -->
 <section id="contact">
-    <div class="container">
-        <div class="row">
+    <div class="container g-0">
+        <div class="row g-0">
             <div class="col-md-6" id="row-1">
                 <h6>DISCOVER DESTINATION</h6>
                 <div class="d-flex">
@@ -856,7 +858,7 @@
 
 
 <footer id="footer">
-    <div class="row">
+    <div class="row g-0">
         <div class="col-md-12">
             <center>
                 Copyright ©2022 All rights reserved | This template is made with<i class="fa fa-heart"></i>  by <span>Colorlib</span>
@@ -866,6 +868,8 @@
 
 </footer>
 <!-- footer section code end -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
@@ -935,7 +939,7 @@
 
 
                 });
-            })
+            });
         
     </script>
     
